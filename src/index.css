@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bliss-bg {
+    background: linear-gradient(180deg, #4A90E2 0%, #75B4FF 40%, #106d20 100%);
+    position: relative;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Custom scrollbar to mimic classic UI */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 16px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1eedd;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #dddaca;
+  border: 2px solid #f1eedd;
+}
