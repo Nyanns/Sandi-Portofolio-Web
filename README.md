@@ -2,7 +2,15 @@
 
 Welcome to **SandiOS™**, a premium web-based desktop environment and portfolio for **SandiWorks Studio**. This project reimagines the optimism of the early 2000s (specifically Windows XP) through high-end modern frontend engineering.
 
-![SandiOS Desktop](photo/preview.png)
+## 📸 Visual Showcase
+
+| Desktop Interface | Premium Resume App |
+|:---:|:---:|
+| ![SandiOS Desktop](photo/desktop.png) | ![SandiOS Resume](photo/resume.png) |
+
+| Portfolio Browser | Interactive Applications |
+|:---:|:---:|
+| ![SandiOS Portfolio](photo/portfolio.png) | ![SandiOS Apps](photo/apps.png) |
 
 ## 🚀 Experience
 *   **Immersive OS Interface**: A fully functional Windows XP-style UI with draggable windows, taskbar, and start menu.
@@ -15,9 +23,6 @@ Welcome to **SandiOS™**, a premium web-based desktop environment and portfolio
 *   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 *   **State Management**: [Zustand](https://github.com/pmndrs/zustand)
 *   **Window Management**: [react-rnd](https://github.com/bokuweb/react-rnd)
-
-## 📸 Inside the Apps
-![SandiOS Apps](photo/apps.png)
 
 ## ⚙️ Development
 1.  **Install dependencies**: `npm install`
